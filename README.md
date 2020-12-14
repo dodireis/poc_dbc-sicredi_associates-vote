@@ -1,9 +1,11 @@
-# SICREDI TEST - VOTAÇÃO DE ASSOCIADOS
+# SICREDI - VOTAÇÃO DE ASSOCIADOS
 
 ## CONSIDERAÇÕES
-	Embora a tendência seja utilizar a separação dos pacotes por funcionalidades (Package by Feature),decidi usar o layout por camadas (Package by Layers), porque tive que ir entendendo as funcionalidades e adaptando conforme ia desenvolvendo, uma vez que não tinha as histórias escritas e bem definidas.
-	Utilizei o Swagger para documentar os rest points.
-	Estou usando um banco de dados de teste, o H2, apenas para poder persistir os dados e não precisar realizar nenhuma configuração local
+	- Embora a tendência seja utilizar a separação dos pacotes por funcionalidades (Package by Feature),
+	decidi usar o layout por camadas (Package by Layers), porque tive que ir entendendo as funcionalidades e adaptando conforme ia desenvolvendo,
+	uma vez que não tinha as histórias escritas e bem definidas.
+	- Utilizei o Swagger para documentar os rest points.
+	- Estou usando um banco de dados de teste, o H2, apenas para poder persistir os dados e não precisar realizar nenhuma configuração local
 
 ## CONFIGURAÇÃO
 
