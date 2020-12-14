@@ -5,10 +5,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sicredi</groupId>
-	<artifactId>associatesvote</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>associates-vote</artifactId>
+	<version>1.0.0</version>
 	<name>Sicredi_Associates_Vote</name>
-	<description>Server to process Sicredi's Associates Vote </description>
+	<description>Server to process Sicredi's Associates Vote</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
