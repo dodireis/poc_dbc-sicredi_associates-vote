@@ -49,7 +49,7 @@ public class ThemeService {
 
 	protected Theme findById(Long id) {
 		return themeRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException(
-				Theme.class.getName().concat(" not found! Searched for id: ".concat(id.toString()))));
+				"Theme not found! Searched for id: ".concat(id.toString())));
 	}
 
 	private void countVotes(Theme entity) {

@@ -35,7 +35,7 @@ public class VoteSessionService {
 
 	public VoteSession findById(Long id) {
 		return voteSessionRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException(
-				VoteSession.class.getName().concat(" not found! Searched for id: ".concat(id.toString()))));
+				"Vote Session not found! Searched for id: ".concat(id.toString())));
 	}
 
 	private void validateVotingTime(VoteSession voteSession) {
